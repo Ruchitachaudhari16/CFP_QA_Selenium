@@ -27,10 +27,13 @@ public class Login {
         System.out.println(source);
 
         //To close the particular browser tab
-        driver.close();
+        //driver.close();
 
         //to close all the browser by selenium
-        driver.quit();
+        //driver.quit();
+
+        //Navigate:- it will navigate to another url for same tab
+        driver.navigate().to("https://www.flipkart.com/");
 
     }
 }
