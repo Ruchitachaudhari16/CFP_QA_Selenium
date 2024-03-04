@@ -37,5 +37,8 @@ public class Login {
 
         //Naviagate back:- it will come back to previous url
         driver.navigate().back();
+
+        //Navigate refresh that takes you forward by one page on the browser's history
+        driver.navigate().forward();
     }
 }
