@@ -32,8 +32,10 @@ public class Login {
         //to close all the browser by selenium
         //driver.quit();
 
-        //Navigate:- it will navigate to another url for same tab
+        //Navigate to:- it will navigate to another url for same tab
         driver.navigate().to("https://www.flipkart.com/");
 
+        //Naviagate back:- it will come back to previous url
+        driver.navigate().back();
     }
 }
