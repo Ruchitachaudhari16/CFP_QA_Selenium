@@ -11,5 +11,6 @@ public class Login {
     {
         driver=new ChromeDriver(); //Open the chrome browser.
         driver.get("https://www.facebook.com/"); //Launch the application
+        driver.manage().window().maximize();// Maximize the window
     }
 }
