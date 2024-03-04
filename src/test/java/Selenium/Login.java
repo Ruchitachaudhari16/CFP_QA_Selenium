@@ -18,5 +18,13 @@ public class Login {
         String title=driver.getTitle();
         System.out.println(title);
 
+        //To get current url
+        String url=driver.getCurrentUrl();
+        System.out.println(url);
+
+        //To get PageSource(source code of particular Page)
+        String source= driver.getPageSource();
+        System.out.println(source);
+
     }
 }
