@@ -26,5 +26,11 @@ public class Login {
         String source= driver.getPageSource();
         System.out.println(source);
 
+        //To close the particular browser tab
+        driver.close();
+
+        //to close all the browser by selenium
+        driver.quit();
+
     }
 }
